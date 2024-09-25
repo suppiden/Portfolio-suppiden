@@ -81,9 +81,9 @@ const Hero = () => {
         
         <div>
           <img
-            className="absolute bottom-[-20vw] right-[-40vw] ml-[55vw] 
+            className="absolute bottom-[-8vh] right-[-40vw] ml-[55vw] 
             lg:ml-[75vw] md:ml-[60vw] xmd:ml-[60vw] 2xl:ml-[83vw]
-            sm:h-[90vh] md:h-[70vh] xl:h-[80vh] xl:right-[2vw]"
+            sm:h-[90vh] xs:bottom-[21vh] md:h-[70vh] xl:h-[80vh] xl:right-[2vw] xl:bottom-[-5vh]"
             src={shaq}
             alt="Suppiden"
           />
