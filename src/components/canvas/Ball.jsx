@@ -1,5 +1,6 @@
 import React, { Suspense } from 'react';
 import { Canvas } from '@react-three/fiber';
+import { isMobile } from 'react-device-detect';
 import {
   Decal,
   Float,
@@ -37,7 +38,7 @@ const Ball = (props) => {
 
 const BallCanvas = ({ icon }) => {
   return (
-    <Canvas frameloop="always" dpr={[1, 1.5]} gl={{ antialias: true }} >
+    <Canvas frameloop="always" dpr={[1, isMobile ? 1 : 2]} gl={{ preserveDrawingBuffer: true }}>
       <Suspense fallback={<Loader />}>
         <OrbitControls enableZoom={false} position0={0} />
         <Ball imgUrl={icon} />
