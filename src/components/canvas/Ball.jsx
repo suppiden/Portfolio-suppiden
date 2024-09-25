@@ -14,9 +14,9 @@ const Ball = (props) => {
 
   return (
     <Float speed={2.5} rotationIntensity={1} floatIntensity={2}>
-      <ambientLight intensity={0.25} />
-      <directionalLight position={[0, 0, 0.05]} />
-      <mesh castShadow receiveShadow scale={2.75}>
+      <ambientLight intensity={0.1} />
+      <directionalLight position={[0, 0, 0.05]} intensity={0.5} />
+      <mesh castShadow={false} receiveShadow={false} scale={2.75}>
         <icosahedronGeometry args={[1, 2]} />
         <meshStandardMaterial
           color="#3d3d3d"
