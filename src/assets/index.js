@@ -40,7 +40,7 @@ import rubyrails from './tech/golang.png';
 
 import coverhunt from './company/sagitaz.png';
 import dcc from './company/cerciora.png';
-import kelhel from './company/dxc.png';
+import kelhel from './company/DXC.png';
 import microverse from './company/lexer.jpg';
 
 import komikult from './projects/komikult.png';
