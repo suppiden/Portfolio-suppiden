@@ -45,7 +45,7 @@ const Hero = () => {
             </h1>
             <p className={`${styles.heroSubText} mt-2 text-eerieBlack`}>
               Your new favourite web dev. <br className="sm:block hidden" />
-              Always evolving, always learing, always improving.
+              Always evolving
             </p>
           </div>
           <div
@@ -81,9 +81,16 @@ const Hero = () => {
         
         <div>
           <img
-            className="absolute bottom-[-8vh] right-[-40vw] ml-[55vw] 
-            lg:ml-[75vw] md:ml-[60vw] xmd:ml-[60vw] 2xl:ml-[83vw]
-            sm:h-[90vh] xs:bottom-[21vh] md:h-[70vh] xl:h-[80vh] xl:right-[2vw] xl:bottom-[-5vh]"
+            className="absolute
+            2xl:ml-[83vw]
+            xl:h-[120vh] xl:right-[-9vw] xl:bottom-[-29vh]
+            lg:ml-[60vw] 
+            xmd:ml-[60vw] xmd:h-[85vh]
+            md:ml-[40vw]  md:h-[85vh]
+            sm:h-[85vh]  sm:ml-[59vw] sm:bottom-[-25vh] 
+            xs:bottom-[-28vh] xs:ml-[40vw] xs:h-[85vh]
+            2xs:bottom-[-19vh] 2xs:h-[55vh] 2xs:ml-[40vw] "
+            
             src={shaq}
             alt="Suppiden"
           />
@@ -94,3 +101,16 @@ const Hero = () => {
 };
 
 export default Hero;
+
+/*
+
+ <div>
+          <img
+            className="absolute bottom-[-8vh] right-[-40vw] ml-[55vw] 
+            lg:ml-[75vw] md:ml-[60vw] xmd:ml-[60vw] 2xl:ml-[83vw]
+            sm:h-[90vh] xs:bottom-[-19vh] md:h-[70vh] xl:h-[120vh] xl:right-[-9vw] xl:bottom-[-28vh]"
+            src={shaq}
+            alt="Suppiden"
+          />
+        </div>
+*/
